@@ -1,0 +1,19 @@
+{
+  "name": "monsieurbeer",
+  "version": "1.0.0",
+  "description": "front-end quebec beer commerce site ",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "beer",
+    "javascript",
+    "front-end"
+  ],
+  "author": "kirillginko",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
