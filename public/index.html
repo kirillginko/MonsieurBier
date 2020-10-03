@@ -11,7 +11,8 @@
         <meta http-equiv="X-UA-Compatible" content="ie=edge" />
         <!-- CSS only -->
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
-        <link rel="stylesheet" href="style.css">
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
           <!-- JS, Popper.js, and jQuery -->
         <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
         <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
@@ -20,10 +21,11 @@
         <title>Monsieur Bier</title>
     </head>
     <body>
+      <div class="header">
       <div class="container">
       <div class="navbar">
         <div class="logo">
-        <img src="beer.png" width="120px">
+          <img src="beer.png" width="120px">
         </div>
         <nav>
           <ul>
@@ -33,9 +35,94 @@
             <li><a href="">Contacts</a></li>
             <li><a href="">Account</a></li>
           </ul>
-          </div>
+          <img src="cart.png" alt="" width=30px height="30px">
         </nav>
-      <h1 class="text-center">Monsieur Bier</h1>
       </div>
-    </body>
+        <h1 class="text-center">Monsieur Bier</h1>
+      <div class="row">
+        <div class="col-2">
+          <h4>Order from the best microbreweries<br> in Quebec!</h4>
+          <p>Discovering the best beers and microbreweries!</p>
+          <a href="" class="btn">Explore Now! &#8594; </a>
+        </div>
+        <div class="col-2">
+<!--         <img src="banner.png" width="800px"> -->
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!---- featured categories ----->
+  <div class="categories">
+    <div class="small-container">
+    <div class="row">
+      <div class="col-3">
+        <img src="beers/aphrodite.png" alt="">
+      </div>
+      <div class="col-3">
+        <img src="beers/darniere volonte.png" alt="">
+      </div>
+      <div class="col-3">
+        <img src="beers/blanche.png" alt="">
+      </div>
+
+    </div>
+  </div>
+  </div>
+  <!---- featured products ----->
+    <div class="small-container">
+      <h2 class="title">Featured Products</h2>
+      <div class="row">
+        <div class="col-4">
+          <img src="beers/aphrodite.png" alt="">
+          <h4 class="ml-4"> Aphrodite Beer</h4>
+          <div class="rating ml-4">
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star-o"></i>
+          </div>
+          <p class="ml-4">$4.50</p>
+        </div>
+        <div class="col-4">
+          <img src="beers/darniere volonte.png" alt="">
+          <h4 class="ml-4"> Darniere Volonte</h4>
+          <div class="rating ml-4">
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star-half-o"></i>
+            <i class="fa fa-star-o"></i>
+          </div>
+          <p class="ml-4">$4.50</p>
+        </div>
+        <div class="col-4">
+          <img src="beers/blanche.png" alt="">
+          <h4 class="ml-4"> Blanche</h4>
+          <div class="rating ml-4">
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star-half-o"></i>
+          </div>
+          <p class="ml-4">$4.50</p>
+        </div>
+        <div class="col-4">
+          <img src="beers/disco.png" alt="">
+          <h4 class="ml-4"> disco soleil</h4>
+          <div class="rating ml-4">
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star-o"></i>
+          </div>
+          <p class="ml-4">$4.50</p>
+        </div>
+
+      </div>
+    </div>
+  </body>
 </html>
