@@ -56,8 +56,10 @@ p{
 .col-2{
   flex-basis: 50%;
   min-width: 300px;
-  padding-left: 70px;
-  padding-right: 70px;
+  max-width: 500px;
+
+/*  padding-left: 70px;
+  padding-right: 70px;*/
 
 }
 
@@ -293,7 +295,7 @@ transform: translateY(-10px);
 }
 
 .footer-col-2 img{
-  width: 140px;
+  width: 120px;
   margin-bottom: 20px;
 }
 
@@ -311,7 +313,7 @@ ul{
 }
 
 .app-logo img{
-  width: 140px;
+  width: 120px;
 }
 
 .footer hr{
@@ -332,14 +334,15 @@ ul{
 }
 
 /*---media query for menu--- */
+
 @media only screen and (max-width: 800px){
 
   nav ul{
     position: absolute;
-    top: 70px;
-    left: 0;
-    background: #333;
-    width: 100%;
+    top: 90px;
+    right: 0;
+/*    background: #333;*/
+    width: 50%;
     overflow: hidden;
     transition: max-height 0.5s;
 
@@ -357,6 +360,20 @@ ul{
     display: block;
     cursor: pointer;
   }
+}
+
+}
+
+/*---media query for less than 600 screen size---*/
+
+@media only screen and (max-width: 600px){
+
+  .row{
+    text-align: center;
+}
+
+  .col-2, .col-3, .col-4{
+    flex-basis: 100%;
 }
 
 }
