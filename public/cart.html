@@ -1,0 +1,187 @@
+
+<!doctype html>
+<html class="no-js" lang="">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="x-ua-compatible" content="ie=edge">
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+        <!-- CSS only -->
+<!--         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+ -->        <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+          <!-- JS, Popper.js, and jQuery -->
+      <!--   <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script> -->
+        <link rel="stylesheet" type="text/css" href="style.css" />
+        <title>Monsieur Bier</title>
+    </head>
+    <body>
+      <div class="container">
+      <div class="navbar">
+        <div class="logo">
+          <a href="/index.html">
+          <img src="https://res.cloudinary.com/dtps5ugbf/image/upload/v1602098864/logo_khhjbt.png" width="120px">
+          </a>
+        </div>
+        <nav>
+          <ul id="MenuItems">
+            <li><a href="/index.html">Home</a></li>
+            <li><a href="/products.html">Products</a></li>
+            <li><a href="">About</a></li>
+            <li><a href="">Contacts</a></li>
+            <li><a href="/account.html">Account</a></li>
+          </ul>
+        </nav>
+        <a href="/account.html">
+        <img src="https://res.cloudinary.com/dtps5ugbf/image/upload/v1602091275/cart_nbgtl8.png" width=30px height="30px">
+        </a>
+        <img src="https://res.cloudinary.com/dtps5ugbf/image/upload/v1602191371/menu_irpq4t.png" class="menu-icon" onclick="menutoggle()">
+      </div>
+    </div>
+
+<!--     ----cart items details---- -->
+
+    <div class="small-container cart-page">
+      <table>
+        <tr>
+          <th>Product</th>
+          <th>Quantity</th>
+          <th>Subtotal</th>
+        </tr>
+        <tr>
+          <td>
+            <div class="cart-info">
+              <img src="https://res.cloudinary.com/dtps5ugbf/image/upload/v1602091252/aphrodite_jlzciw.png">
+              <div>
+                <p>Aphrodite Beer</p>
+                <small>Price: $4.50</small>
+                <br>
+                <a href="">Remove</a>
+              </div>
+            </div>
+          </td>
+          <td><input type="number" value="1"></td>
+          <td>$4.50</td>
+        </tr>
+        <tr>
+          <td>
+            <div class="cart-info">
+              <img src="https://res.cloudinary.com/dtps5ugbf/image/upload/v1602091253/darniere_volonte_fh3xq7.png">
+              <div>
+                <p>Darniere Volonte</p>
+                <small>Price: $4.50</small>
+                <br>
+                <a href="">Remove</a>
+              </div>
+            </div>
+          </td>
+          <td><input type="number" value="1"></td>
+          <td>$4.50</td>
+        </tr>
+        <tr>
+          <td>
+            <div class="cart-info">
+              <img src="https://res.cloudinary.com/dtps5ugbf/image/upload/v1602091253/blanche_sj2zer.png">
+              <div>
+                <p>Blanche du paradis</p>
+                <small>Price: $4.50</small>
+                <br>
+                <a href="">Remove</a>
+              </div>
+            </div>
+          </td>
+          <td><input type="number" value="1"></td>
+          <td>$4.50</td>
+        </tr>
+      </table>
+
+        <div class="total-price">
+          <table>
+            <tr>
+              <td>Subtotal</td>
+              <td>$13.50</td>
+            </tr>
+            <tr>
+              <td>Tax</td>
+              <td>$1.75</td>
+            </tr>
+            <tr>
+              <td>Total</td>
+              <td>$15.25</td>
+            </tr>
+          </table>
+        </div>
+
+
+    </div>
+
+
+
+
+
+
+
+    <!---- Footer --->
+    <div class="footer">
+      <div class="container">
+        <div class="row">
+          <div class="footer-col-1">
+            <h3>Download our app!</h3>
+            <p>Download the app for IOS and Andriod Mobile Phones.</p>
+            <div class="app-logo">
+            <img src="https://res.cloudinary.com/dtps5ugbf/image/upload/v1602191357/app-store_ubzoid.png">
+            <img src="https://res.cloudinary.com/dtps5ugbf/image/upload/v1602191371/play-store_teaxif.png">
+          </div>
+          </div>
+          <div class="footer-col-2">
+            <img src="https://res.cloudinary.com/dtps5ugbf/image/upload/v1602098864/logo_khhjbt.png">
+            <p>Our mission is to provide sustainable beer delivery of local craft breweries to your home! </p>
+          </div>
+          <div class="footer-col-3">
+            <h3>Useful Links:</h3>
+            <ul>
+              <li>Coupons</li>
+              <li>Blog</li>
+              <li>Return Policy</li>
+              <li>Join Affiliate</li>
+            </ul>
+          </div>
+          <div class="footer-col-4">
+            <h3>Follow us:</h3>
+            <ul>
+              <li>Facebook</li>
+              <li>Twitter</li>
+              <li>Instagram</li>
+              <li>Youtube</li>
+            </ul>
+          </div>
+        </div>
+          <hr>
+          <p class="copyright">Copyright 2020</p>
+        </div>
+      </div>
+
+    <!--- js for menu toggle --->
+
+    <script>
+      var MenuItems = document.getElementById("MenuItems");
+      MenuItems.style.maxHeight = "0px";
+
+      function menutoggle(){
+        if(MenuItems.style.maxHeight == "0px")
+        {
+          MenuItems.style.maxHeight = "200px"
+        }
+        else {
+          MenuItems.style.maxHeight = "0px"
+        }
+      }
+    </script>
+
+  </body>
+</html>
