@@ -50,6 +50,7 @@
         loop:false,
         slideMove:3,
         slideMargin: 10,
+        loop: true,
         easing: 'cubic-bezier(0.25, 0, 0.25, 1)',
         speed:600,
         responsive : [
