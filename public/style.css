@@ -132,6 +132,8 @@ p{
   width: 210px;
 }
 
+
+
 .small-container{
   max-width: 1080px;
   margin: auto;
@@ -204,6 +206,48 @@ h4{
 small {
   color: #555;
 }
+
+/*---carousel---*/
+
+.carousel-container{
+  max-width: 1080px;
+  padding-left: 25px;
+  padding-right: 25px;
+  width: 100%;
+  margin: auto;
+/*  border: 5px solid black;*/
+  overflow: hidden;
+  position: relative;
+}
+
+.carousel-slide{
+  display: flex;
+  width: 100px;
+  height: 500px;
+}
+
+#prevBtn{
+  position: absolute;
+  top: 50%;
+  z-index: 10;
+  left: 5%;
+  font-size: 30px;
+  color: black;
+  opacity: 0.7;
+  cursor: pointer;
+}
+
+#nextBtn{
+  position: absolute;
+  top: 50%;
+  z-index: 10;
+  right: 5%;
+  font-size: 30px;
+  color: black;
+  opacity: 0.7;
+  cursor: pointer;
+}
+
 /*---Testimonial---*/
 
 .testimonial{
