@@ -122,17 +122,32 @@ p{
   width: 100%;
 }
 
-.col-3 .catimg{
-  height: 500px;
-  width: 200px;
+.col-3a{
+  flex-basis: 35%
+  min-width 350px;
+/*  margin-bottom: 10px;*/
+  margin-top: 30px;
+  transition: transform 0.5s;
 }
 
-.col-3 .catimg1{
-  height: 540px;
-  width: 210px;
+.col-3a:hover{
+
+  transform: translateY(-5px);
 }
 
+.col-3a img{
+  cursor: pointer;
+  filter: grayscale(100%);
+}
 
+.col-3a img:hover{
+  filter:grayscale(0);
+}
+
+.imgbrewer{
+  height: 300px;
+  width: 300px;
+}
 
 .small-container{
   max-width: 1080px;

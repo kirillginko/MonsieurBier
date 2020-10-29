@@ -7,21 +7,23 @@
   // $(function(){
   //   $("#nav-placeholder").load("navbar.html");
   // });
-// <--------- image carousel ----------->
-  // new Glide('.images', {
-  //     type: 'carousel',
-  //     gap: '60px',
-  //     wrapperWidth: '50px',
-  //     focusAt: 'center',
-  //     perView: 3
-  // }).mount()
+  // $(function(){
+  //   $("#nav-footer").load("footer.html");
+  // });
 
+  // const navFooter = document.querySelectorAll('#nav-footer').load("footer.html");
+  // load_home();
+  // async function load_home(){
+  // document.getElementById("nav-footer").innerHTML = await (await fetch('footer.html')).text();
+  // };
+// <---------------- Image carousel -------------------->
   $(document).ready(function() {
     $('#responsive').lightSlider({
         item:4,
         loop:false,
         slideMove:3,
         slideMargin: 10,
+        loop: true,
         easing: 'cubic-bezier(0.25, 0, 0.25, 1)',
         speed:600,
         responsive : [
